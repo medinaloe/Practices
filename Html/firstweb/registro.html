@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrese en Conquerblock.">
+    <title>Home/Mi Primera Web</title>
+    <link rel="icon" href="img/imghome/emofavicon.ico" type="image/x-icon">
+    <img src="img/imghome/logotipo-conquer-crypto.png" alt="Logo Conquer" width="500" height="100" >
+
+<body>
+    <header>
+        <hr>
+        <h1>Registrate</h1>
+    </header>
+     <nav>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="quienessomos.html">¿Quienes somos?</a></li>
+         <li><a href="cursos.html">Cursos</a></li>
+         <li><a href="blog.html">Blog</a></li>
+         <li>Resgistro</li>
+         <li><a href="login.html">Login</a></li>
+         <li><a href="contacto.html">Contacto</a></li>    
+        </ul>       
+     </nav>
+     <hr>
+     <main>
+        <h2>Formulario de Registro</h2>
+        <p>Para poder acceder a nuestros cursos es necesario que estes registrado.</p>
+        <p>Hay que rellenar todas las casilla necesarias.</p>
+        <hr>
+        <form name="Formulario de acceso" action="post" enctype="multipart/form-data" >
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required  >
+            </p>
+            <p>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </p>
+            <p>
+                <label for="fecha nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="birthday" name="birthday" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"  required>
+            </p>
+            <p>
+                <label for="direccion domicilio">Direccion:</label>
+                <input type="text" id="addres" name="addres" placeholder="Provincia, ciudad, calle, piso" required >
+            </p>
+            <p>
+                <label for="web">Pagina Web:</label>
+                <input type="url" id="web" name="web">
+            </p>
+            <p>
+                <label for="foto">Foto de Perfil:</label>
+                <input type="file" id="foto" name="foto" >
+            </p>
+            <p>
+                <label for="biografia">Biografia:</label>
+                <br>
+                <textarea name="biografia" id="" cols="50" rows="5" placeholder="Ej: Juan Pérez es un programador especializado
+                en desarrollo web y aplicaciones móviles. Con más de 5 años de experiencia..."></textarea>
+            </p>  
+            <p><button>Enviar formulario</button></p>
+        </form>
+        <nav> 
+        <button onclick="history.back()">Volver atrás</button>   
+    </nav>
+     </main>
+
+
+    <footer>
+        <br>
+        © 2025 - Mi Primera Web. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
